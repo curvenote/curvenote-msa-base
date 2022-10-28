@@ -1,0 +1,14 @@
+name: msa-acom-paper
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+      - pymatgen
+      - py4DSTEM
