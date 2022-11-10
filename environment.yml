@@ -3,7 +3,6 @@ channels:
   - default
   - conda-forge
 dependencies:
-  - python>=3.7
   - jupyterlab
   - numpy
   - matplotlib
@@ -11,5 +10,6 @@ dependencies:
   - ipywidgets
   - pip
   - pip:
+      - h5py
       - pymatgen
       - py4DSTEM
