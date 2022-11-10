@@ -12,4 +12,4 @@ dependencies:
   - pip:
       - h5py
       - pymatgen
-      - py4DSTEM
+      - py4DSTEM==0.12.24
